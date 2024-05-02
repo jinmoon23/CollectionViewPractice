@@ -27,7 +27,7 @@ class MyCollectionViewCell: UICollectionViewCell {
         contentView.backgroundColor = .gray
         
         nameLabel.text = profile.name
-        statusMessageLabel.text = profile.statueMessage
+        statusMessageLabel.text = profile.statusMessage
         bgImageView.image = profile.bgImage
         
         nameLabel.backgroundColor = .yellow

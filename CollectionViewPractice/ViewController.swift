@@ -36,14 +36,14 @@ class ViewController: UIViewController {
     lazy var collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
     
     var profileList: [ProfileModel] = [
-        .init(name: "진문1", statueMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "star")!),
-        .init(name: "진문2", statueMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "star.fill")!),
-        .init(name: "진문3", statueMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "heart")!),
-        .init(name: "진문4", statueMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "heart.fill")!),
-        .init(name: "진문5", statueMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "person")!),
-        .init(name: "진문6", statueMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "person.fill")!),
-        .init(name: "진문7", statueMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "circle")!),
-        .init(name: "진문8", statueMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "circle.fill")!)
+        .init(name: "진문1", statusMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "star")!),
+        .init(name: "진문2", statusMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "star.fill")!),
+        .init(name: "진문3", statusMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "heart")!),
+        .init(name: "진문4", statusMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "heart.fill")!),
+        .init(name: "진문5", statusMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "person")!),
+        .init(name: "진문6", statusMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "person.fill")!),
+        .init(name: "진문7", statusMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "circle")!),
+        .init(name: "진문8", statusMessage: "인생을 고민중이야!", bgImage: UIImage(systemName: "circle.fill")!)
     ]
     
     

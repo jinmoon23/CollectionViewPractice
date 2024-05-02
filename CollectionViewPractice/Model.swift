@@ -10,12 +10,12 @@ import UIKit
 
 class ProfileModel {
     var name: String
-    var statueMessage: String
+    var statusMessage: String
     var bgImage: UIImage
     
-    init(name: String, statueMessage: String, bgImage: UIImage) {
+    init(name: String, statusMessage: String, bgImage: UIImage) {
         self.name = name
-        self.statueMessage = statueMessage
+        self.statusMessage = statusMessage
         self.bgImage = bgImage
     }
 }
